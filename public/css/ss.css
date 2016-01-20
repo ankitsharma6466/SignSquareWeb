@@ -6,12 +6,12 @@ body {
   padding: 0;
 }
 .wrapper {
-  max-width: 1200px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
 .static-bg {
-  background-position: center top;
+  background-position: center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -66,7 +66,7 @@ section.intro {
   height: 100vh;
   background-image: url("/imgs/main_bg.jpeg");
   text-align: center;
-  background-position: center top;
+  background-position: center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -100,16 +100,162 @@ section.about .text {
 section.services {
   background: #f2f2f2;
 }
+section.product {
+  height: 100vh;
+}
 section.product .title {
   font-size: 24px;
   font-weight: 400;
   margin-top: 30px;
   color: #fff;
 }
-section.product.flex {
-  background-image: url("/imgs/banner_intro.jpg");
-  height: 100vh;
-  background-position: center top;
+section.product.acrylic-raised-letters {
+  background-image: url("/imgs/Acrylic_Raised_Letters.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.acrylic-directional-signage {
+  background-image: url("/imgs/Acrylic_Directional_signage.JPG");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.backlit-signages {
+  background-image: url("/imgs/Backlit_Signages.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.inshop-branding {
+  background-image: url("/imgs/Inshop_Branding.JPG");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.led-boards {
+  background-image: url("/imgs/LED_Boards.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.led-letters {
+  background-image: url("/imgs/LED_Letters.JPG");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.led-Running-boards {
+  background-image: url("/imgs/LED_running_Boards.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.reflective-signages {
+  background-image: url("/imgs/Reflective_signages.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.road-signages {
+  background-image: url("/imgs/Road_Signages.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.sunboard-boxes {
+  background-image: url("/imgs/Sunboard_Boxes.JPG");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.sunboard-letters {
+  background-image: url("/imgs/Sunboard_Letters_2.JPG");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.building-wrap-with-vinyl {
+  background-image: url("/imgs/Building_Wrap_with_vinyl.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.vehicle-wrap-with-vinyl {
+  background-image: url("/imgs/Vehicle_wrap_with_vinyl.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.vinyl-cut-letters {
+  background-image: url("/imgs/Vinyl_cut_letters.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.corporate-events {
+  background-image: url("/imgs/Corporate_events.JPG");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.canopies {
+  background-image: url("/imgs/Canopies.JPG");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.product.hoarding-structures {
+  background-image: url("/imgs/Hoarding_Structures.jpg");
+  background-position: center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
