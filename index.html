@@ -9,57 +9,45 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>SignSquare</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/signsquare.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
-                </a>
+                <a style="font-size: 22px" class="navbar-brand topnav" href="#">SignSquare</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a href="#Services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,95 +56,729 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>SignSquare</h1>
+                        <h3>One Stop Solution for all Visual Branding</h3>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+    <div id="about" class="content-section-b">
+
+      <div class="container">
+
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-            </div>
+          <div class="col-sm-push-6  col-sm-6">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">About SignSquare</h2>
+            <p class="lead">Sign Square is leading in providing the VM services for Events, advertising and design media for indoor- outdoor Signage / Sign solutions and brand management, comprising of in-house Solvent Flex / Vinyl Printing, Eco-solvent flex & Vinyls, over laminations and have experts for ACP Cladding, LED signages and all type of fabrication.</p>
+          </div>
+          <div class="col-sm-pull-6  col-sm-6">
+            <img class="img-responsive" src="img/printer.jpg" alt="">
+          </div>
         </div>
-    </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+      </div>
+      <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div id="Services"></div>
+    <div id="portfolio" class="content-section-a">
+
+      <!-- Portfolio Grid Section -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
                 </div>
+                <img src="img/Acrylic_Raised_Letters.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Acrylic Raised Letters</h4>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Acrylic_Directional_signage.JPG" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Acrylic Directional Signage</h4>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Backlit_Signages.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Backlit Signages</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Inshop_Branding.JPG" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Inshop Branding</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/LED_Boards.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>LED Boards</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/LED_Letters.JPG" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>LED Letters</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/LED_running_Boards.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>LED Running Boards</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Reflective_signages.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Reflective Signages</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Road_Signages.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Road Signages</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Sunboard_Boxes.JPG" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Sunboard Boxes</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Sunboard_Letters_2.JPG" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Sunboard Letters</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Building_Wrap_with_vinyl.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Building Wrap With Vinyl</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Vehicle_wrap_with_vinyl.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Vehicle Wrap With Vinyl</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Vinyl_cut_letters.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Vinyl Cut Letters</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Canopies.JPG" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Canopies</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal16" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Corporate_events.JPG" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Corporate Events</h4>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal17" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="img/Hoarding_Structures.jpg" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Hoarding Structures</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="banner">
+
+      <div class="container text-center">
+
+        <h3>To achieve perfection of growth our way is not of soft grass, it’s a mountain path with lots of work of hardships. But it goes upward, forward towards the sun, which ultimately is what we are seeking for GROWTH.</h3>
+
+      </div>
+      <!-- /.container -->
+
+    </div>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Acrylic Raised Letters</h2>
+                <img class="img-responsive img-centered" src="img/Acrylic_Raised_Letters.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <h2>Acrylic Directional Signage</h2>
+                <img class="img-responsive img-centered" src="img/Acrylic_Directional_signage.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Backlit Signages</h2>
+                <img class="img-responsive img-centered" src="img/Backlit_Signages.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>In-shop Branding</h2>
+                <img class="img-responsive img-centered" src="img/Inshop_Branding.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>LED Boards</h2>
+                <img class="img-responsive img-centered" src="img/LED_Boards.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>LED Letters</h2>
+                <img class="img-responsive img-centered" src="img/LED_Letters.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>LED Running Boards</h2>
+                <img class="img-responsive img-centered" src="img/LED_running_Boards.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Reflective Signages</h2>
+                <img class="img-responsive img-centered" src="img/Reflective_signages.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Road Signages</h2>
+                <img class="img-responsive img-centered" src="img/Road_Signages.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Sunboard Boxes</h2>
+                <img class="img-responsive img-centered" src="img/Sunboard_Boxes.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Sunboard Letters</h2>
+                <img class="img-responsive img-centered" src="img/Sunboard_Letters_2.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Building Wrap With Vinyl</h2>
+                <img class="img-responsive img-centered" src="img/Building_Wrap_with_vinyl.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 13 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Vehicle Wrap With Vinyl</h2>
+                <img class="img-responsive img-centered" src="img/Vehicle_wrap_with_vinyl.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 14 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Vinyl Cut Letters</h2>
+                <img class="img-responsive img-centered" src="img/Vinyl_cut_letters.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 15 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Canopies</h2>
+                <img class="img-responsive img-centered" src="img/Canopies.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 16 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Corporate Events</h2>
+                <img class="img-responsive img-centered" src="img/Corporate_events.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 17 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Hoarding Structures</h2>
+                <img class="img-responsive img-centered" src="img/Hoarding_Structures.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <h2>Ajay Sharma</h2>
+                  <h4><i class="fa fa-phone"></i><span style="margin-left: 20px">+91-9971896161</span></h4>
+                  <h4><i class="fa fa-envelope"></i><span style="margin-left: 20px">signsquareindia@gmail.com</span></h4>
+                  <p style="margin-top: 30px" class="copyright text-muted small">Copyright &copy; SignSquare 2008. All Rights Reserved</p>
+                </div>
+            </div>
         </div>
     </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
 
 </body>
 
